@@ -115,14 +115,12 @@ a {
 
 .container {
     display: grid;
-    grid-template-columns: repeat(3, 2fr);
-    grid-template-rows: repeat(2, 2fr);
-    grid-column-gap: 45px;
-    grid-row-gap: 45px;
+	grid-gap: 20px;
+	grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
     margin-top: 10%;
 
+}
 
-    }
 
 img{
     width: 100%;
@@ -130,6 +128,8 @@ img{
     object-fit: cover;
 	cursor: pointer;
 }
+
+
 
 .captions {
     font-family: 'Dongle';
