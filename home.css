@@ -113,7 +113,7 @@ a {
 
 .container {
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(3, 2fr);
     grid-template-rows: repeat(2, 2fr);
     grid-column-gap: 45px;
     grid-row-gap: 45px;
